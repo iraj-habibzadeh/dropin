@@ -1,0 +1,376 @@
+
+body {
+    background-image: linear-gradient(240deg, rgb(21, 153, 87) 0%, rgb(21, 87, 153) 100%);
+    background-size: cover;
+    font-family: "IranSans" !important;
+    direction: rtl;
+
+}
+
+.wrapper {
+    overflow: hidden;
+
+    height: 48.688rem;
+}
+
+.container {
+    max-width: 81.875rem !important;
+}
+
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url('../font/IranianSans.eot');
+    src: url('../font/IranianSans.eot?#iefix') format('embedded-opentype'),
+    url('../font/IranianSans.woff2') format('woff2'),
+    url('../font/IranianSans.woff') format('woff'),
+    url('../font/IranianSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lang-col {
+    z-index: 1;
+}
+
+.lang img {
+    margin: 15px;
+}
+
+.language-icon {
+    width: 36px;
+    height: 25px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.usa {
+    background: url('../img/usa.png') no-repeat;
+}
+
+.iran {
+    background: url('../img/saudi-arabia.png') no-repeat;
+}
+
+.login {
+    box-shadow: 0 0.125rem 0.875rem rgba(0, 0, 0, 0.07);
+    border-radius: 0.5rem;
+    background-color: rgb(21, 153, 87);
+    border: none;
+    padding: 20px 30px;
+    margin-right: 70px;
+    color: #ffffff;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.login span {
+    color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.box-content a:hover {
+    text-decoration: none;
+    color: #4e555b;
+
+}
+
+.nav a {
+    color: rgb(156, 156, 156);
+    padding-right: 10px;
+    font-size: 20px;
+
+}
+
+.nav li {
+    padding-left: 60px;
+}
+
+.content {
+    border-radius: 0.938rem;
+    background-color: rgb(255, 255, 255);
+    padding-top: 33px;
+    border: 0.063rem solid rgb(151, 151, 151);
+    padding-left: 70px;
+    padding-right: 70px;
+    position: relative;
+
+}
+
+.box-content {
+    padding-bottom: 25px;
+    border-bottom: 0.063rem solid rgb(151, 151, 151);
+}
+
+.data {
+    margin-top: 30px;
+}
+
+.data h1 {
+    color: rgb(121, 121, 121);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.data p {
+    color: rgb(156, 156, 156);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.input {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-right: 5px !important;
+    height: 63px;
+    padding-left: 0;
+
+}
+
+.input img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.input button {
+    border-radius: 0.313rem;
+    background-color: rgb(21, 87, 153);
+    border: none;
+    cursor: pointer;
+
+    height: 3.125rem;
+    color: rgb(211, 211, 211);
+    width: 100%;
+}
+
+.input input {
+    border: none;
+    text-align: left;
+    font-size: 17px;
+    outline: none;
+    color: #373737;
+
+}
+
+.img {
+    z-index: 1;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.social {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social img {
+
+}
+
+.blockqoute {
+    margin-top: 55px;
+    direction: ltr;
+    float: left;
+    text-align: center;
+}
+
+.blockqoute .col-10 {
+    color: rgb(156, 156, 156);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.blockqoute span {
+    background-image: url("../img/mask (1).png");
+    background-size: cover;
+}
+
+.page a {
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.mobile {
+    height: auto;
+    padding-top: 20px;
+}
+
+.bubble {
+    display: inline-block;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: -420px;
+    left: -419px
+
+}
+
+.bubble-button {
+    position: absolute;
+    top: 48%;
+    left: 52%;
+}
+
+.ltr {
+    direction: ltr;
+
+}
+
+.mobile-img-container {
+    position: absolute;
+    left: 5%;
+    top: 14%;
+}
+
+.iphone {
+    right: 28px;
+}
+
+.c-i {
+    position: relative;
+    top: 100px;
+    width: 87%;
+    right: 54px;
+}
+
+.slider-indicator {
+    bottom: 149px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.button-send {
+    text-align: -webkit-center;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.mr-auto {
+    text-align: right;
+}
+
+.mr-auto a {
+    font-size: 16px;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: 0 !important;
+}
+
+.modal-header {
+    padding: 0;
+}
+
+.modal-body {
+    width: 100%;
+    text-align: -webkit-center;
+    direction: ltr;
+}
+
+.modal-body a {
+    color: #373737;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.google-button button {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    width: 90%;
+    border: none;
+    font-size: 14px;
+    color: #373737;
+    cursor: pointer;
+
+}
+
+.fa {
+    padding: 20px;
+}
+
+.fa-google {
+
+    width: 40px;
+    height: 40px;
+}
+
+.border-line {
+    padding-top: 20px;
+}
+
+.border-line hr {
+    border-top: 2px solid rgba(0, 0, 0, .1);
+
+}
+
+.input-number {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    width: 90%;
+    padding: 20px 0 0;
+    height: 130px;
+
+}
+
+.text-right {
+    text-align: left !important;
+}
+
+.tell-number {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.submit-sign {
+    background-image: linear-gradient(240deg, rgb(21, 153, 87) 0%, rgb(21, 87, 153) 100%);
+
+    padding-top: 15px;
+}
+
+.submit-sign a, .submit-sign span {
+    color: white;
+    padding-right: 10px;
+
+}
+
+.carousel-item {
+    font-size: 14px;
+    color: #777777;
+}
+
+.navbar-collapse {
+    padding-bottom: 25px;
+    border-bottom: solid 1px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    border: solid 1px #373737;
+    border-radius: 61px;
+    height: 15px;
+    cursor: pointer;
+
+}
+
+.next-button {
+    position: relative;
+    margin-top: 50px;
+}
+
+.carousel-indicators .active {
+    background: #4e555b;
+}

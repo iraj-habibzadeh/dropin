@@ -1,0 +1,30 @@
+body {
+    font-family: "IranSans", serif !important;
+    direction: rtl;
+
+}
+
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url('../font/IranianSans.eot');
+    src: url('../font/IranianSans.eot?#iefix') format('embedded-opentype'),
+    url('../font/IranianSans.woff2') format('woff2'),
+    url('../font/IranianSans.woff') format('woff'),
+    url('../font/IranianSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-right {
+    background-image: url("../img/2-layers (3).png");
+    background-size: cover;
+    width: 999px;
+    height: 766px;
+
+}
+
+.main-left {
+    background: url("../img/rectangle-14 (1).png") no-repeat;
+    width: 270px;
+    height: 500px;
+}

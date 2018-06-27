@@ -1,0 +1,194 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "IranSans", serif !important;
+    direction: rtl;
+
+}
+
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url('../font/IranianSans.eot');
+    src: url('../font/IranianSans.eot?#iefix') format('embedded-opentype'),
+    url('../font/IranianSans.woff2') format('woff2'),
+    url('../font/IranianSans.woff') format('woff'),
+    url('../font/IranianSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding-right: 95px;
+    padding-left: 30px;
+
+}
+
+.vertical-navbar {
+    background-color: #16192b;
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+
+}
+
+.nav {
+    padding-right: 0;
+}
+
+.nav li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav li:hover {
+
+    border-right: solid 5px #7e45fa;
+}
+
+.nav li::selection {
+    border-right: solid 5px #7e45fa;
+    height: -webkit-fill-available;
+}
+
+.search {
+    box-shadow: -5px 0 34px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+
+}
+
+.title-search {
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+    background-color: #e9e9e9;
+
+}
+
+.title-search h5 {
+    color: #959595;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.input-search {
+    border-radius: 4px;
+    border: 1px solid #979797;
+    opacity: 0.37;
+
+}
+
+.input-search select {
+    color: black;
+    background: #f7f7f7;
+}
+
+.object-bar span {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.object-bar .text-right:hover {
+
+}
+
+.object-bar {
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.media {
+
+}
+
+.user-data button {
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: #3489cc;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+    width: 100%;
+    cursor: pointer;
+}
+
+.user-data span {
+    padding-left: 2px;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+.media-body p {
+    color: #6c757d;
+    font-size: 10px;
+}
+
+#map {
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.map img {
+    top: 10%;
+    left: 19%;
+    position: relative;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box .col-11 {
+    padding-left: 0;
+}
+
+.searchs {
+    border-radius: 5px;
+    background-color: #faf8fe;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 200;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 0;
+    width: 100%;
+}
+
+.icon-search-bar {
+    background-color: #e5e7fc;
+    cursor: pointer;
+
+}
+
+.icon-search-bar img {
+    margin: 10px;
+}
+
+.places-text h6 {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.places-text span {
+    color: #a5a5a5;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+#exit {
+    cursor: pointer;
+}

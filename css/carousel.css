@@ -1,0 +1,12 @@
+
+.r-c {
+    position: absolute;
+    top: 35px;
+    left: 0;
+}
+
+.l-c {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+}

@@ -1,0 +1,164 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "IranSans", serif !important;
+    direction: rtl;
+
+}
+
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url('../font/IranianSans.eot');
+    src: url('../font/IranianSans.eot?#iefix') format('embedded-opentype'),
+    url('../font/IranianSans.woff2') format('woff2'),
+    url('../font/IranianSans.woff') format('woff'),
+    url('../font/IranianSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.container-fluid {
+    padding-right: 95px !important;
+}
+
+.vertical-navbar {
+    background-color: #16192b;
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+
+}
+
+.banner-footer {
+    background: white;
+}
+
+.nav {
+    padding-right: 0;
+}
+
+.vertical-navbar li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.vertical-navbar li:hover {
+
+    border-right: solid 5px #7e45fa;
+}
+
+.vertical-navbar li::selection {
+    border-right: solid 5px #7e45fa;
+}
+
+.header {
+    background-image: url("../img/bitmap (13).png");
+    background-size: cover;
+
+    height: 300px;
+
+}
+
+.social-link {
+    padding: 30px;
+}
+
+.social-link li {
+    padding-left: 25px;
+
+}
+
+.social-link a {
+    border: 1px solid #979797;
+    border-radius: 100px;
+    padding: 5px 8px;
+}
+
+.social-comment .col-3 {
+
+}
+
+.social-comment .col-2:hover {
+    background: #c2dbfa;
+    border-bottom: solid 2px #9ba6fa;
+
+}
+
+.social-comment-title {
+    color: #afafaf;
+    font-size: 14px;
+    z-index: +10;
+    padding-top: 10px;
+}
+
+.owner button {
+    font-size: 14px;
+    color: #5b5b5b;
+    border: solid 1px #9ba6fa;
+    background: white;
+    width: 185px;
+    height: 58px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+.owner button:hover {
+    background: linear-gradient(240deg, rgb(21, 153, 87) 0%, rgb(21, 87, 153) 100%);
+    color: white;
+
+}
+
+.content-title {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.content {
+    padding: 25px 35px;
+}
+
+.map {
+    box-shadow: 0 1px 4px rgba(224, 224, 224, 0.14);
+    border-radius: 4px;
+}
+
+.position-absolute {
+    top: 140px;
+    right: 150px;
+}
+
+.card-footer:hover {
+    background: linear-gradient(240deg, rgb(21, 153, 87) 0%, rgb(21, 87, 153) 100%);;
+}
+
+.card-footer {
+    color: #afafaf;
+    font-size: 16px;
+}
+
+.content-title h6 {
+    color: #16192b;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer-slider {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.category {
+    color: #a5a5a5;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.end {
+    color: #2f2f2f;
+    font-size: 16px;
+    font-weight: 200;
+}

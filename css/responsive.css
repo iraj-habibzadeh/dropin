@@ -1,0 +1,341 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .nav li {
+        padding-left: 60px;
+    }
+
+    .nav a {
+        font-size: 20px;
+    }
+
+    .input button {
+        width: 10.75rem;
+        height: 3.125rem;
+    }
+
+    .social img {
+        height: 60px;
+        width: 163px;
+
+    }
+
+    .data h1 {
+        font-size: 30px;
+    }
+
+    .data p {
+        font-size: 18px;
+    }
+
+    .blockqoute {
+        margin-top: 55px;
+    }
+
+    .blockqoute .col-10 {
+        color: rgb(156, 156, 156);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .input input {
+        font-size: 20px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .wrapper {
+        height: auto;
+    }
+
+    .login {
+        padding: 20px 25px;
+        display: flex;
+        text-align: -webkit-left;
+        margin-right: 0;
+    }
+
+    .mobiles-background {
+
+        width: 90%;
+
+    }
+
+    .c-i {
+        position: relative;
+        top: 115px;
+        width: 79%;
+        right: 44px;
+    }
+
+    .content {
+        padding-left: 50px;
+        padding-right: 17px;
+    }
+
+    .nav li {
+        padding-left: 15px;
+    }
+
+    .nav a {
+        font-size: 16px;
+
+    }
+
+    .input button {
+        width: 6.75rem;
+        height: 3.125rem;
+    }
+
+    .social img {
+        width: 115%;
+        margin-bottom: 20px;
+
+    }
+
+    .data h1 {
+
+        font-size: 22px;
+    }
+
+    .data p {
+        font-size: 16px;
+    }
+
+    .blockqoute .col-10 {
+
+        font-size: 14px;
+
+    }
+
+    .blockqoute {
+        margin-top: 10px;
+    }
+
+    .iphone-display {
+        height: 82%;
+
+        top: 23%;
+        width: 80%;
+    }
+
+    .input input {
+        font-size: 16px;
+
+    }
+
+    .iphone {
+    }
+
+    .input {
+        overflow: hidden;
+    }
+
+    .page a {
+        margin-top: 0;
+    }
+
+    .iphone {
+        width: 90%;
+        height: -webkit-fill-available;
+        height: fit-content;
+    }
+
+    .button-send {
+        padding-top: 7px;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .nav li {
+        padding-left: 0;
+        padding-bottom: 9px;
+        display: block;
+    }
+
+    .nav a {
+        font-size: 16px;
+        padding-right: 5px;
+
+    }
+
+    .login {
+        margin-left: 1px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .data {
+        margin-top: 10px;
+    }
+
+    .data h1 {
+        font-size: 16px;
+    }
+
+    .data p {
+        font-size: 12px;
+    }
+
+    .input {
+
+        height: 50px;
+
+    }
+
+    .input button {
+
+        font-size: 14px;
+
+    }
+
+    .ltr {
+        margin-top: 10px;
+    }
+
+    .social {
+        margin-top: 30px;
+
+    }
+
+    .social img {
+        width: 77%;
+        height: 190%;
+    }
+
+    ul.nav {
+        padding: 0;
+    }
+
+    .button-login {
+        text-align: -webkit-center;
+    }
+
+    .wrapper {
+        height: auto;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .content {
+        border-radius: 0.938rem;
+        background-color: rgb(255, 255, 255);
+        padding: 5px 10px;
+        border: 0.063rem solid rgb(151, 151, 151);
+
+    }
+
+    .login {
+        box-shadow: 0 0.125rem 0.875rem rgba(0, 0, 0, 0.07);
+        border-radius: 0.5rem;
+        background-color: rgb(21, 153, 87);
+        border: none;
+        padding: 15px 30px;
+        margin-right: 34px;
+        color: #ffffff;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .mr-auto a {
+        font-size: 14px;
+    }
+
+    .mobiles {
+
+        display: none;
+
+    }
+
+    .data h1 {
+        font-size: 16px;
+    }
+
+    .content-left {
+        margin: 20px;
+
+    }
+
+    .content-left p {
+        font-size: 14px;
+    }
+
+    .input {
+        width: 100%;
+        margin: auto;
+        padding-top: 7px;
+
+    }
+
+    .input input {
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    .button-send {
+        text-align: -webkit-center;
+        padding: 0;
+        font-size: 12px;
+        line-height: 50px;
+
+    }
+
+    .social-icon {
+        padding-bottom: 10px;
+    }
+
+    .blockqoute {
+        margin-top: 20px;
+
+    }
+
+    .next-button {
+        margin-top: 25px;
+    }
+
+}

@@ -1,0 +1,339 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "IranSans", serif !important;
+    direction: rtl;
+
+}
+
+@font-face {
+    font-family: 'Iranian Sans';
+    src: url('../font/IranianSans.eot');
+    src: url('../font/IranianSans.eot?#iefix') format('embedded-opentype'),
+    url('../font/IranianSans.woff2') format('woff2'),
+    url('../font/IranianSans.woff') format('woff'),
+    url('../font/IranianSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding-right: 95px;
+    padding-left: 35px;
+
+}
+
+.vertical-navbar {
+    background-color: #16192b;
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+
+}
+
+.aside {
+    background-color: #f2f2f2;
+    margin-top: 80px;
+}
+
+.img-users {
+    height: 180px;
+}
+
+.main {
+}
+
+.card {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-box .card {
+    padding: 15px 15px;
+}
+
+.cards-img {
+    position: absolute;
+    top: 130px;
+    right: 185px;
+    border: solid 5px #fafafa;
+    border-radius: 100px;
+    width: 20%;
+}
+
+.user-img {
+    width: 50px;
+}
+
+.card-body-title {
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card-body {
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
+.card-body-p {
+    color: #c4c4c4;
+
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.footer-card .title {
+    color: #4b4b4b;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.footer-card p {
+    color: #4b4b4b;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.social-box h4 {
+    color: #bbbbbb;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.social-box p {
+    color: #bbbbbb;
+    font-size: 10px;
+}
+
+.media {
+
+    border-bottom: solid 1px #dae0e5;
+
+}
+
+.user-data button {
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: #3489cc;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 200;
+    width: 100%;
+    cursor: pointer;
+}
+
+.user-data span {
+    padding-left: 2px;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box .col-11 {
+    padding-left: 0;
+}
+
+.search {
+    border-radius: 5px;
+    background-color: #faf8fe;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 200;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 0;
+    width: 100%;
+}
+
+.icon-search-bar {
+    background-color: #e5e7fc;
+    cursor: pointer;
+
+}
+
+.icon-search-bar img {
+    margin: 10px;
+}
+
+.title-one, .title-two {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-one h4, .title-two h4 {
+    color: #bbbbbb;
+
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.title-one p {
+    color: #bbbbbb;
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+.position-absolute {
+    top: 25px;
+    right: 25px;
+}
+
+.card-banner {
+    height: 218px;
+}
+
+.position-absolute p {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+.position-absolute h6 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.position-absolute button {
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.footer-card-two {
+    padding: 10px;
+    color: #b2b2b2;
+    font-size: 14px;
+    font-weight: 200;
+    border-top: solid 1px #efefef;
+    cursor: pointer;
+
+}
+
+.footer-card-two:hover {
+    background: linear-gradient(240deg, rgb(21, 153, 87) 0%, rgb(21, 87, 153) 100%);;
+    color: white;
+}
+
+.footer-card-two p {
+    margin-bottom: 0;
+}
+
+.img-none {
+    top: 90px;
+    right: 65px;
+}
+
+.title-two {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.live-frame h5 {
+    color: #515151;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.live-frame a {
+    font-size: 10px;
+    font-weight: 200;
+    color: #4a90e2;
+    text-align: center;
+}
+
+.live-frame p {
+    color: #c4c4c4;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.winner {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #155799;
+}
+
+.live-frame .col-9 {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.winner img {
+    padding: 55px;
+}
+
+.winner p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.winner button {
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #5b5b5b;
+    font-size: 12px;
+    font-weight: 200;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 31px;
+}
+
+.card-users {
+    margin-top: 88px;
+}
+
+.card-social {
+    margin-top: 25px;
+
+}
+
+.card-social .card {
+    width: 85%;
+}
+
+.nav {
+    padding-right: 0;
+}
+
+.nav li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav li:hover {
+
+    border-right: solid 5px #7e45fa;
+}
+
+.nav li::selection {
+    border-right: solid 5px #7e45fa;
+}
