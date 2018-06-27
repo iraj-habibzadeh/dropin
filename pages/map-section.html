@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>map-section</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/map-section.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="row">
+        <nav class="navbar navbar-inverse navbar-fixed-right vertical-navbar">
+            <ul class="nav ">
+                <li class="nav-item home">
+                    <a class="nav-link active" href="#" role="tab" aria-controls="pills-home" aria-selected="true"><img
+                            src="../img/dog-house.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="tab" aria-controls="pills-home" aria-selected="false"><img
+                            src="../img/search.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="tab" aria-controls="pills-home" aria-selected="false"><img
+                            src="../img/today.png"></a>
+                </li>
+            </ul>
+        </nav>
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col-3 search " id="search">
+                    <div class="row justify-content-center title-search p-5">
+                        <div class="col-10 text-right">
+                            <h5>جستجو</h5>
+                        </div>
+                        <div class="col-2">
+                                <span class="glyphicon glyphicon-remove" id="exit" onclick="exit()">
+                                    <img src="../img/delete.png" class="img-fluid">
+                                </span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center ">
+                        <div class=" col-10 input-group mb-4 input-search mt-4">
+                            <select class="custom-select border-0" id="inputGroupSelect01">
+                                <option selected> فیلتر مکان ها:همه</option>
+                                <option value="1">تهران</option>
+                                <option value="2">مشهد</option>
+                                <option value="3">اصفهان</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center object-bar mt-2 pb-3">
+                        <div class="col-3 text-right p-0 ">
+                               <span class="text-right " id="users" onclick="users()">
+                                   افراد
+                               </span>
+                        </div>
+                        <div class="col-3 text-right p-0 " id="places" onclick="place()">
+                               <span class="text-right">
+                                   مکان ها
+                               </span>
+
+                        </div>
+                        <div class="col-3 p-0 text-right " onclick="events()"> <span class="text-right">
+                               رویداد ها
+                           </span>
+
+                        </div>
+                    </div>
+
+                    <div class="row users mt-3">
+
+                        <div class="col-12 user-data" id="content">
+
+                            <div class="media">
+                                <img class="align-self-center user-img " src="../img/bitmap%20(4).png">
+                                <div class="media-body col-7 text-right pt-4">
+                                    <h6>شرف‌الملوک </h6>
+                                    <p>@ziaowsky</p>
+                                </div>
+                                <div class="col-5 submit-button ">
+                                    <button class="btn-primary"><span><img
+                                            src="../img/add-user-male.png"></span>دنبال
+                                        کردن
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="align-self-center user-img " src="../img/bitmap%20(5).png">
+                                <div class="media-body col-7 text-right pt-4">
+                                    <h6>علی راشدی</h6>
+                                    <p>@ziaowsky</p>
+                                </div>
+                                <div class="col-5 submit-button">
+                                    <button class="btn-primary"><span><img
+                                            src="../img/add-user-male.png"></span>دنبال
+                                        کردن
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="align-self-center user-img " src="../img/bitmap%20(6).png">
+                                <div class="media-body col-7 text-right pt-4">
+                                    <h6>محمدعارف ظریف</h6>
+                                    <p>@ziaowsky</p>
+                                </div>
+                                <div class="col-5 submit-button">
+                                    <button class="btn-primary"><span><img
+                                            src="../img/add-user-male.png"></span>دنبال
+                                        کردن
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <img class="align-self-center user-img " src="../img/bitmap%20(7).png">
+                                <div class="media-body col-7 text-right pt-4">
+                                    <h6>بهمن قلینواز</h6>
+                                    <p>@ziaowsky</p>
+                                </div>
+                                <div class="col-5 submit-button">
+                                    <button class="btn-primary"><span><img
+                                            src="../img/add-user-male.png"></span>دنبال
+                                        کردن
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 map " id="main">
+
+
+                    <div class="row search-box justify-content-center">
+                        <iframe id="map"
+                                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7700.038498628973!2d51.362456569826534!3d35.763893767519!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1529755812587"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <div class="col-7 col-sm-9 col-md-9 col-lg-9 col-xl-9 pl-0">
+                            <input class="searchs" type="text" placeholder="افراد، مکان و رویداد‌ها رو جستجو کنید">
+                        </div>
+                        <div class="col-1 icon-search-bar pr-0">
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="../img/30-layers.png">
+                </div>
+
+        </main>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="../js/map-sections.js"></script>
+
+</body>
+</html>
